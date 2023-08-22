@@ -1,0 +1,3 @@
+Java version:
+Java utils: Arraylist, Collections, Scanner
+Javafx
