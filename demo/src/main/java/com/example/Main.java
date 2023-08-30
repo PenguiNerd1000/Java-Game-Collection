@@ -16,7 +16,7 @@ public class Main {
             }            
             x++;
         }
-        return tiles;
+        return automatic;
     }
 
     public static int tryStringToInt(String response) {
