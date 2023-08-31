@@ -5,7 +5,7 @@ import java.util.Scanner;
  
 public class Main {
     
-    //shorthand for not writing multiple instances of cards
+    //function for writing multiple instances of cards, still needs to be debugged to work properly
     public static ArrayList<Integer> automatic(int a, ArrayList<Integer> tiles) {
          
          for (int i = 0; i < tiles.size()*2; i++) {
@@ -26,7 +26,7 @@ public class Main {
         System.out.println("How many pairs do you want to have generated?");       
         int pairsGenerated = scanner.nextInt();
 
-        //tiles used for matching
+        //tiles used for matching, generated, shuffled
         ArrayList<Integer> tiles = new ArrayList<>();
         automatic(pairsGenerated, tiles);
         Collections.shuffle(tiles);
@@ -36,6 +36,7 @@ public class Main {
             System.out.println(i);
         }
         
+        //to be cont: 
         //String[] board = new String[tiles.size()];
         //boolean[] flipped = new boolean[tiles.size()];
         //int pairsFound = 0; 
