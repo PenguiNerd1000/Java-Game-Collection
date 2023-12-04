@@ -6,9 +6,7 @@ Making the classic flipping tiles memory game to practice Java syntax and learn 
 - https://code.visualstudio.com/docs/java/java-gui
 - https://www.javatpoint.com/javafx-tutorial
 
-## Contributions
-Epicgamerryt:
-
-PenguiNerd1000:
-
-Qwerty1034:
+## Games Included:
+- Tictactoe
+- Memory Game
+- ...
